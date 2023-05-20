@@ -55,7 +55,7 @@ const HomePage = () => {
         resetHandler={resetHandler}
       />
       {view === "grid" ? (
-        <div className="d-flex flex-row flex-wrap justify-content-between my-3 container">
+        <div className="d-flex flex-column flex-md-row flex-wrap justify-content-between my-3 container">
           {availableItems}
         </div>
       ) : (

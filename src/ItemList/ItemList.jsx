@@ -78,6 +78,7 @@ const ItemList = ({ id, images, name, price, category, size, stock }) => {
       </div>
     </div>
   );
+
   const listJsx = (
     <div
       className={`card mb-3  ${
